@@ -1,0 +1,148 @@
+body{
+  font-family: 'Baloo Bhai 2', cursive;
+margin: 0px;
+padding: 0px;
+
+font-size: 20px;
+}
+.right{
+  position: absolute;
+  left: 0;
+  top: 30px;
+width: 100%;
+height: 100vh;
+animation: animate 35s ease-in-out infinite;
+z-index: -5;
+background-size: cover;
+background-position:bottom;
+margin-top: 180px;
+/* opacity: .5; */
+}
+@keyframes animate{
+0% {
+  background-image: url('pic 1.jpg');
+}
+10%{
+  background-image: url('pic 2.jpg');
+}
+20%{
+  background-image: url('pic 3.jpg');
+}
+30%{
+  background-image: url('pic 4.jpg');
+}
+40%{
+  background-image: url('pic 5.jpg');
+}
+50%{
+  background-image: url('pic 6.jpg');
+}
+60%{
+  background-image: url('pic 7.jpg');
+}
+70%{
+  background-image: url('pic 8.jpg');
+}
+80%{
+  background-image: url('pic 9.jpg');
+}
+90%{
+  background-image: url('pic 10.jpg');
+}
+100%{
+  background-image: url('pic 11.jpg');
+}
+}
+
+
+/* navigation bar css strats here */
+
+.menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #110c0c;
+overflow: hidden;
+}
+.menu li{
+float: left;
+}
+.menu li a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.menu li:hover{
+background-color:#ff0000; }
+.active{background-color: #15bf17}
+
+
+.container{
+  color: white;
+  float: left;
+  /* border: 2px solid red; */
+  width: 456px;
+  text-align: left;
+/* align-items: center; */
+  margin: 5px 10px;
+  padding: 5px 3px;
+  margin-top: 30px;
+
+cursor: pointer;
+text-shadow: 5px 4px 3px black;
+
+
+}
+
+.container input{
+  margin: 5px 20px;
+  padding: 5px 3px;
+  width: 45%;
+  border-radius: 8px;
+
+}
+
+
+.input:focus{
+	background-color: #04d1d8;
+}
+
+.submitbtn{
+	background-color: green;
+padding: 15px 12px;
+color: white;
+text-align: center;
+margin: 10px 10px;
+margin-button:15px;
+cursor: pointer;}
+
+.submitbtn:hover{
+	background-color: #02ff37;
+	box-shadow: 5px 4px 4px 2px rgba(0,0,0,0,5);
+}
+
+/* paragraph css */
+.box{
+  float: left;
+  /* background-color: skyblue; */
+color: red;
+/* border: 5px solid black; */
+border-radius: 6px;
+box-sizing: border-box;
+padding: 10px;
+margin: 20px;
+display: inline-block;
+width:55%;
+text-shadow: 5px 4px 3px black;
+margin-top: 100px;
+}
+#upperpic{
+  background-image: url('healthw1.jpg');
+  text-align: center;
+  padding: 22px;
+  color: white;
+  background-repeat: repeat-x;
+
+}

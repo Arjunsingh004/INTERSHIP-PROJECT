@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<style type="text/css">
+body{
+	margin: 0;
+font-family: 'Baloo Bhai 2', cursive;
+text-shadow: 1px 1px 2px black;
+font-size: 20px;
+}
+#header{
+		background-image: url('healthw1.jpg');
+		background-repeat:repeat-x;
+		/* background-size: cover; */
+		color:white;
+		padding:22px;
+		text-align: center;
+	}
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #110c0c;
+	overflow: hidden;
+}
+.menu li{
+	float: left;
+}
+.menu li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.menu li:hover{
+background-color:#ff0000; }
+.active
+{background-color: #15bf17}
+
+@media screen and(max-width:600px){
+	.menu li{
+		float: none;
+	}
+}
+#form{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+
+	/* border: 5px solid red; */
+
+}
+.input{
+	padding: 12px 12px;
+	width: 100%
+	margin:8px 0;
+	box-sizing: border-box;
+outline: none;
+border: 1px solid #2b2828;
+}
+.input:focus{
+	background-color: #04d1d8;
+
+}
+textarea{
+	padding: 12px 15px;
+	width: 100%
+	margin:8px 0;
+	box-sizing: border-box;
+	outline: none;
+	border: 1px solid #2b2828;
+}
+.input:focus{
+	background-color: #04d1d8;
+}
+.submitbtn{
+	background-color: green;
+padding: 15px 12px;
+color: white;
+text-align: center;
+margin: 4px 2px
+margin-button:15px;
+cursor: pointer;}
+
+.submitbtn:hover{
+	background-color: #02ff37;
+	box-shadow: 5px 4px 4px 2px rgba(0,0,0,0,5);
+}
+.contactbox{
+	display: flex;
+	flex-direction:column;
+	/* border: 5px solid red; */
+	height: 600px;
+	width: 500px;
+	text-decoration: none;
+
+
+}
+</style>
+
+
+</head>
+<body>
+    <div id="header">
+
+    	<h1>Cleanstuff</h1>
+
+    </div>
+<div class="topnav">
+	<div class="menu">
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="healthplus1.html">Information</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a class="active" href="">Contact</a></li>
+    </div>
+</div>
+
+<div id="form">
+	<h2>Contact</h2>
+	<p style="font-size: 18px;">Fill the form for your complaints and querys</p>
+<form>
+	<p><label form="name"> Name</label></p>
+	<p><input type="text" class="input" name="name" placeholder="Name"></p>
+	<p><label form="email"> E-mail</label></p>
+	<p><input type="email" class="input" name="email" placeholder="E-mail"></p>
+
+	<p><label form="subject">Subject </label></p>
+	<p><input type="text" class="input" name="subject" placeholder="Subject"></p>
+	<p><label form="message">Message</label></p>
+	<p><textarea rows="4" cols="50"name="message" placeholder="Message"></textarea></p>
+
+<input type="submit" class="submitbtn" value="Send">
+
+</form>
+
+<div class="contactbox">
+
+<p>For more information you can contact us</p><br>
+Call<a href="http://whatsapp.com">8696989600</a><br>
+Call<a href="http://whatsapp.com">8849567593</a>
+
+
+</div>
+
+
+
+<hr>
+<p>&copy; Copyright by cleanstuff website</p>
+
+</body>
+</html>
